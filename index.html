@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Odunayo Blessing Adesina - Portfolio</title>
+    <title>Odunayo Blessing Adesina | Environmental Scientist &amp; PhD Researcher</title>
+    <meta
+      name="description"
+      content="Odunayo Blessing Adesina is an environmental scientist and PhD researcher focused on algal-bacterial bioremediation, nutrient recovery, and emerging contaminants."
+    />
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -49,7 +53,8 @@
           <ul>
             <li><a href="#home" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#resume">Resume</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#resume">CV</a></li>
             <li><a href="#publications">Publications</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -67,24 +72,29 @@
       <div class="container">
         <div class="hero-content">
           <div class="hero-text">
-            <h1>Who AM I?</h1>
-            <div class="career-toggle">
-              <button id="env-btn" class="active">
-                Environmental Scientist
-              </button>
-              <button id="hr-btn">HR/Customer Service Professional</button>
+            <p class="hero-kicker">Environmental Scientist · PhD Researcher</p>
+            <h1>Odunayo Blessing Adesina</h1>
+            <div class="hero-affiliations">
+              <p>
+                <span>PhD</span>
+                Institute of Soil Science, Chinese Academy of Sciences
+              </p>
+              <p>
+                <span>M.Sc.</span>
+                UNEP-Tongji Institute of Environment for Sustainable Development
+                (IESD)
+              </p>
             </div>
-            <p id="env-desc" class="career-desc active">
-              Environmental researcher with expertise in microbiology and
-              sustainable solutions for ecological challenges.
+            <p class="hero-tagline">
+              Restoring ecosystems through microbial innovation.
             </p>
-            <p id="hr-desc" class="career-desc">
-              Service-driven professional with strong organizational support
-              skills and experience in team coordination.
+            <p class="hero-desc">
+              Advancing algal-bacterial bioremediation for nutrient recovery,
+              emerging contaminants, and herbicide-contaminated environments.
             </p>
             <div class="hero-btns">
-              <a href="#contact" class="btn primary-btn">Contact Me</a>
-              <a href="#resume" class="btn secondary-btn">View Resume</a>
+              <a href="#publications" class="btn primary-btn">Publications</a>
+              <a href="#contact" class="btn secondary-btn">Contact</a>
             </div>
           </div>
           <div class="hero-image">
@@ -107,50 +117,49 @@
     <section id="about" class="about">
       <div class="container">
         <div class="section-title">
-          <h2>About Me</h2>
+          <h2>About</h2>
           <div class="underline"></div>
         </div>
         <div class="about-content">
           <div class="about-text">
-            <div id="env-about" class="career-about active">
-              <p>
-                I am an environmental researcher with a background in
-                Microbiology (B.Sc.) and Environmental Science (M.sc) from
-                Tongji University, China. My research has focused on nutrient
-                and antibiotic removal in biofilm reactors for high-ammonium
-                wastewater, exploring ecological and bioremediation strategies
-                to combat pollution and climate change.
-              </p>
-              <p>
-                I'm particularly interested in sustainable solutions and
-                biological nutrient recovery, and I aim to apply innovative
-                science to real-world environmental and societal challenges.
-              </p>
-            </div>
-            <div id="hr-about" class="career-about">
-              <p>
-                I am a highly adaptable and service-driven professional with a
-                strong academic and practical background in environmental
-                science, research, and organizational support. With experience
-                spanning administrative roles, quality control, and community
-                health outreach, I bring excellent analytical thinking,
-                communication, and team coordination skills to the workplace.
-              </p>
-              <p>
-                My leadership in cross-functional environments, from education
-                to health and youth development, demonstrates my ability to
-                manage tasks efficiently, foster collaboration, and support
-                community-centered goals. I am passionate about contributing to
-                people-focused sectors, where I can apply my diverse experiences
-                to support inclusive growth, operational efficiency, and
-                positive social impact.
-              </p>
-            </div>
+            <p>
+              Throughout my career, I have been dedicated to addressing
+              environmental challenges through innovative research and practical
+              problem-solving. I hold a Bachelor of Science in Microbiology and
+              a Master's degree in Environmental Science from Tongji University,
+              China. During my Master's research, I focused on nutrient and
+              antibiotic removal in biofilm reactors for high-ammonium
+              wastewater treatment.
+            </p>
+            <p>
+              My research interests center on ecology and bioremediation for
+              addressing pollution and climate change, including biological
+              nutrient removal, energy recovery, and the impacts of emerging
+              contaminants on microbial communities and ecosystem health. I am
+              currently pursuing a PhD focused on the bioremediation of
+              herbicide-contaminated environments, particularly the use of
+              algal-bacterial consortia for herbicide degradation.
+            </p>
+            <p>
+              I aim to translate scientific advances into practical and
+              sustainable solutions to pressing environmental and societal
+              challenges.
+            </p>
           </div>
           <div class="about-info">
             <div class="info-item">
               <span class="info-title">Name:</span>
               <span class="info-value">Odunayo Blessing Adesina</span>
+            </div>
+            <div class="info-item">
+              <span class="info-title">PhD:</span>
+              <span class="info-value"
+                >Institute of Soil Science, Chinese Academy of Sciences</span
+              >
+            </div>
+            <div class="info-item">
+              <span class="info-title">M.Sc.:</span>
+              <span class="info-value">UNEP-Tongji IESD, Tongji University</span>
             </div>
             <div class="info-item">
               <span class="info-title">Email:</span>
@@ -165,11 +174,6 @@
             <div class="info-item">
               <span class="info-title">Nationality:</span>
               <span class="info-value">Nigerian</span>
-            </div>
-
-            <div class="info-item">
-              <span class="info-title">Residence:</span>
-              <span class="info-value">China</span>
             </div>
             <div class="info-item">
               <span class="info-title">ORCID:</span>
@@ -188,17 +192,153 @@
                 href="./docs/adesina_1.pdf"
                 class="btn primary-btn"
                 download
-                id="download-env-cv"
-                >Download Environmental CV</a
-              >
-              <a
-                href="./docs/adesina_2.pdf"
-                class="btn secondary-btn"
-                download
-                id="download-hr-cv"
-                >Download HR/CS CV</a
+                >Download CV</a
               >
             </div>
+          </div>
+        </div>
+        <div class="impact">
+          <h3 class="impact-title">My Impact at a Glance</h3>
+          <div class="impact-grid">
+            <div class="impact-item">
+              <div class="impact-icon"><i class="fas fa-flask"></i></div>
+              <p class="impact-stat">8+</p>
+              <p class="impact-label">
+                Peer-reviewed publications from 2024 to 2026
+              </p>
+            </div>
+            <div class="impact-item">
+              <div class="impact-icon"><i class="fas fa-seedling"></i></div>
+              <p class="impact-stat">3</p>
+              <p class="impact-label">
+                Soil types in PhD research on algal-bacterial consortia
+              </p>
+            </div>
+            <div class="impact-item">
+              <div class="impact-icon"><i class="fas fa-tint"></i></div>
+              <p class="impact-stat">90%+</p>
+              <p class="impact-label">
+                Ammonium removal in a designed biofilm reactor
+              </p>
+            </div>
+            <div class="impact-item">
+              <div class="impact-icon"><i class="fas fa-globe-africa"></i></div>
+              <p class="impact-stat">2</p>
+              <p class="impact-label">
+                Countries, Nigeria and China, plus international collaborations
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section id="research" class="research">
+      <div class="container">
+        <div class="section-title">
+          <h2>Research Interests</h2>
+          <div class="underline"></div>
+        </div>
+        <p class="research-intro">
+          Ecology and bioremediation for pollution control and climate action,
+          with current doctoral work on algal-bacterial consortia in
+          herbicide-contaminated systems.
+        </p>
+        <div class="research-grid">
+          <div class="research-card">
+            <div class="research-icon"><i class="fas fa-leaf"></i></div>
+            <h3>Algal-Bacterial Consortia</h3>
+            <p>
+              Coupled herbicide biodegradation and nitrogen fixation in paddy
+              fields, and biofilm reactors for ammonium-rich wastewater.
+            </p>
+          </div>
+          <div class="research-card">
+            <div class="research-icon"><i class="fas fa-recycle"></i></div>
+            <h3>Biological Nutrient Removal</h3>
+            <p>
+              Nutrient and antibiotic removal, energy recovery, and microalgae
+              pathways for sustainable wastewater treatment.
+            </p>
+          </div>
+          <div class="research-card">
+            <div class="research-icon"><i class="fas fa-flask"></i></div>
+            <h3>Emerging Contaminants</h3>
+            <p>
+              Impacts of herbicides, antibiotics, and other pollutants on
+              microbial communities and ecosystem health.
+            </p>
+          </div>
+          <div class="research-card">
+            <div class="research-icon"><i class="fas fa-seedling"></i></div>
+            <h3>Soil Bioremediation</h3>
+            <p>
+              Soil-type effects and bacterial community change during pollutant
+              degradation in environmental bioremediation.
+            </p>
+          </div>
+        </div>
+        <div class="sdg-block">
+          <h3 class="sdg-heading">Sustainable Development Goals</h3>
+          <p class="research-intro">
+            This research contributes to global sustainability targets through
+            water treatment, climate action, and land restoration.
+          </p>
+          <div class="sdg-grid">
+            <article class="sdg-card sdg-6">
+              <span class="sdg-number">6</span>
+              <div>
+                <h4>Clean Water and Sanitation</h4>
+                <p>
+                  Contributing to sustainable wastewater treatment and safe
+                  water reuse through biological nutrient removal and emerging
+                  contaminant degradation.
+                </p>
+              </div>
+            </article>
+            <article class="sdg-card sdg-13">
+              <span class="sdg-number">13</span>
+              <div>
+                <h4>Climate Action</h4>
+                <p>
+                  Advancing bioremediation strategies that reduce greenhouse
+                  gas emissions from agricultural and wastewater systems while
+                  enhancing soil and water health.
+                </p>
+              </div>
+            </article>
+            <article class="sdg-card sdg-15">
+              <span class="sdg-number">15</span>
+              <div>
+                <h4>Life on Land</h4>
+                <p>
+                  Restoring soil health and microbial diversity through
+                  algal-bacterial consortia in herbicide-impacted agricultural
+                  ecosystems.
+                </p>
+              </div>
+            </article>
+            <article class="sdg-card sdg-3">
+              <span class="sdg-number">3</span>
+              <div>
+                <h4>Good Health and Well-being</h4>
+                <p>
+                  Research on antibiotic removal and emerging contaminants
+                  reduces exposure risks to harmful chemicals.
+                </p>
+              </div>
+            </article>
+            <article class="sdg-card sdg-12">
+              <span class="sdg-number">12</span>
+              <div>
+                <h4>Responsible Consumption and Production</h4>
+                <p>
+                  Sustainable wastewater treatment and circular nutrient
+                  recovery support resource efficiency.
+                </p>
+              </div>
+            </article>
           </div>
         </div>
       </div>
@@ -208,7 +348,7 @@
     <section id="resume" class="resume">
       <div class="container">
         <div class="section-title">
-          <h2>Resume</h2>
+          <h2>Curriculum Vitae</h2>
           <div class="underline"></div>
         </div>
         <div class="resume-nav">
@@ -232,30 +372,55 @@
             <div class="timeline">
               <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-date">2022 - 2024</div>
+                <div class="timeline-date">Present</div>
                 <div class="timeline-content">
-                  <h3>Master's Degree in Environmental Science</h3>
-                  <h4>Tongji University, Shanghai, China</h4>
+                  <h3>PhD Researcher</h3>
+                  <h4>
+                    Institute of Soil Science, Chinese Academy of Sciences
+                  </h4>
                   <p>
-                    Focused on environmental research, particularly in nutrient
-                    and antibiotic removal in biofilm reactors for high-ammonium
-                    wastewater.
+                    Doctoral research on the bioremediation of
+                    herbicide-contaminated environments, with emphasis on
+                    algal-bacterial consortia for herbicide degradation.
                   </p>
                 </div>
               </div>
               <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-date">2016 - 2019</div>
+                <div class="timeline-date">2022 to Present</div>
                 <div class="timeline-content">
-                  <h3>B.Sc. in Microbiology</h3>
+                  <h3>M.Sc. Environmental Science</h3>
+                  <h4>
+                    Tongji University (UNEP-Tongji IESD), Shanghai, China
+                  </h4>
+                  <p><strong>GPA:</strong> 4.56 / 5.0</p>
+                  <p>
+                    <strong>Dissertation:</strong> Enhanced Nutrient and
+                    Antibiotic Removal in Algal-Bacterial Biofilm Reactors for
+                    Treating Ammonium-rich Wastewater
+                  </p>
+                  <p><strong>Advisor:</strong> Prof. Wang Rongchang</p>
+                  <p>
+                    Chinese Government Scholarship (China Scholarship Council):
+                    fully funded Master's studies at Tongji University.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019</div>
+                <div class="timeline-content">
+                  <h3>B.Sc. Microbiology</h3>
                   <h4>
                     Institut Superieur de Communication d'Organisation et de
-                    Management (ISCOM), Cottonu, Benin
+                    Management (ISCOM) University, Benin Republic
                   </h4>
+                  <p><strong>GPA:</strong> 3.67 / 5.0</p>
                   <p>
-                    Developed foundational knowledge in microbiology and its
-                    applications in environmental science.
+                    <strong>Dissertation:</strong> Analysis of vaginal discharge
+                    in female reproductive organs from a biological perspective
                   </p>
+                  <p><strong>Advisor:</strong> Allen Micheal</p>
                 </div>
               </div>
             </div>
@@ -266,59 +431,60 @@
             <div class="timeline">
               <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-date">2021 - 2022</div>
+                <div class="timeline-date">Sept 2021 to 2022</div>
                 <div class="timeline-content">
-                  <h3>Microbiology Analyst</h3>
+                  <h3>Microbiologist</h3>
                   <h4>
-                    Abule-Oloni Primary Health Care Board, Ogun State, Nigeria
+                    Primary Health Care Board, Abule-Oloni, Ogun State, Nigeria
                   </h4>
                   <ul>
-                    <li>Analyzed test results for credibility</li>
-                    <li>Engaged in health education and advocacy</li>
-                    <li>Administered Yellow Fever vaccinations</li>
-                    <li>Documented Covid-19 vaccine records</li>
-                    <li>Participated in WHO Immunization Programs</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2020 - 2022</div>
-                <div class="timeline-content">
-                  <h3>Quality Control/Supervisor</h3>
-                  <h4>Daddy Clem Integrated Services, Abeokuta, Nigeria</h4>
-                  <ul>
                     <li>
-                      Led a direct team of bakers, sales representatives, and
-                      other bakery staff
+                      Analyzed test results for credibility, including complete
+                      blood count (CBC), CD4 count, and PCR-based HIV tests for
+                      discordant results referred to the facility
                     </li>
                     <li>
-                      Ensured quality control by verifying measurements and
-                      standards
-                    </li>
-                    <li>
-                      Managed projects to meet client schedules and deadlines
+                      Documented COVID-19 vaccine records
                     </li>
                   </ul>
                 </div>
               </div>
               <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-date">2019 - 2020</div>
+                <div class="timeline-date">Oct 2020 to July 2021</div>
                 <div class="timeline-content">
-                  <h3>High School Biology Teacher</h3>
-                  <h4>National Youth Service Corps, Osun State, Nigeria</h4>
+                  <h3>Quality Control / Supervisor</h3>
+                  <h4>Daddyclem Integrated Services, Abeokuta, Nigeria</h4>
                   <ul>
                     <li>
-                      Managed classes comprising 50% of the total student
-                      population
+                      Supervised a team of bakers, sales representatives, and
+                      bakery staff
                     </li>
                     <li>
-                      Created engaging and inclusive learning environments
+                      Conducted quality control to ensure measurements and
+                      product outcomes met established standards
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019 to 2020</div>
+                <div class="timeline-content">
+                  <h3>Biology Teacher</h3>
+                  <h4>
+                    Baptist High School, Ede, Osun State (NYSC Primary
+                    Assignment)
+                  </h4>
+                  <ul>
+                    <li>
+                      Managed a class comprising 50% of the total student
+                      population, maintaining an engaging and inclusive learning
+                      environment
                     </li>
                     <li>
-                      Provided individualized assistance to students needing
-                      extra support
+                      Provided individualized support to students who required
+                      extra assistance
                     </li>
                   </ul>
                 </div>
@@ -330,13 +496,34 @@
           <div id="skills" class="resume-section">
             <div class="skills-container">
               <div class="skills-category">
-                <h3>Technical Skills</h3>
+                <h3>Research Methods</h3>
                 <div class="skill-item">
-                  <div class="skill-name">Microsoft Office Suite</div>
+                  <div class="skill-name">Biofilm reactors &amp; wastewater microbiology</div>
                   <div class="skill-bar">
                     <div class="skill-progress" style="width: 95%"></div>
                   </div>
                 </div>
+                <div class="skill-item">
+                  <div class="skill-name">Algal-bacterial consortia &amp; bioremediation</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-name">Microbial community analysis</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 88%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-name">Scientific writing &amp; peer review</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 92%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skills-category">
+                <h3>Analytical Tools</h3>
                 <div class="skill-item">
                   <div class="skill-name">Data Analysis (Origin)</div>
                   <div class="skill-bar">
@@ -350,34 +537,13 @@
                   </div>
                 </div>
                 <div class="skill-item">
+                  <div class="skill-name">Microsoft Office Suite</div>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
                   <div class="skill-name">Google Workspace</div>
-                  <div class="skill-bar">
-                    <div class="skill-progress" style="width: 90%"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="skills-category">
-                <h3>Soft Skills</h3>
-                <div class="skill-item">
-                  <div class="skill-name">Communication</div>
-                  <div class="skill-bar">
-                    <div class="skill-progress" style="width: 95%"></div>
-                  </div>
-                </div>
-                <div class="skill-item">
-                  <div class="skill-name">Team Leadership</div>
-                  <div class="skill-bar">
-                    <div class="skill-progress" style="width: 90%"></div>
-                  </div>
-                </div>
-                <div class="skill-item">
-                  <div class="skill-name">Adaptability</div>
-                  <div class="skill-bar">
-                    <div class="skill-progress" style="width: 95%"></div>
-                  </div>
-                </div>
-                <div class="skill-item">
-                  <div class="skill-name">Active Learning</div>
                   <div class="skill-bar">
                     <div class="skill-progress" style="width: 90%"></div>
                   </div>
@@ -393,38 +559,72 @@
                 <div class="certification-icon">
                   <i class="fas fa-certificate"></i>
                 </div>
-                <h3>Laboratory Safety Education Training Certificate</h3>
-                <p>Tongji University</p>
+                <h3>ASEAN-China: Asian-African Youth Dialogue</h3>
+                <p>International Seminar, UNEP-Tongji · 2023</p>
               </div>
               <div class="certification-item">
                 <div class="certification-icon">
-                  <i class="fas fa-certificate"></i>
+                  <i class="fas fa-globe"></i>
                 </div>
-                <h3>Health Safety and Environment Certificate (HSE 1,2,3)</h3>
+                <h3>Climate Change and Human Rights</h3>
+                <p>Amnesty International · 2023</p>
+              </div>
+              <div class="certification-item">
+                <div class="certification-icon">
+                  <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Confronting and Countering Gender-based Violence</h3>
+                <p>Amnesty International · 2023</p>
+              </div>
+              <div class="certification-item">
+                <div class="certification-icon">
+                  <i class="fas fa-university"></i>
+                </div>
+                <h3>Introduction to Amnesty International</h3>
+                <p>Amnesty International · 2023</p>
+              </div>
+              <div class="certification-item">
+                <div class="certification-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <h3>Transforming Nigerian Youths Program</h3>
                 <p>
-                  Chartered Institute of Environmental Health and Safety, USA
+                  Enterprise Development Center and Young Africa Works · 2023
                 </p>
               </div>
               <div class="certification-item">
                 <div class="certification-icon">
-                  <i class="fas fa-certificate"></i>
+                  <i class="fab fa-google"></i>
+                </div>
+                <h3>Google Coursera Data Certificates</h3>
+                <p>
+                  Ask Questions to Make Data-Driven Decisions; Foundations:
+                  Data, Data Everywhere · 2023
+                </p>
+              </div>
+              <div class="certification-item">
+                <div class="certification-icon">
+                  <i class="fas fa-flask"></i>
+                </div>
+                <h3>Laboratory Safety Education Training</h3>
+                <p>Tongji University · 2022</p>
+              </div>
+              <div class="certification-item">
+                <div class="certification-icon">
+                  <i class="fas fa-hard-hat"></i>
+                </div>
+                <h3>Health Safety and Environment (HSE 1, 2, 3)</h3>
+                <p>
+                  Chartered Institute of Environmental Health and Safety, USA ·
+                  2022
+                </p>
+              </div>
+              <div class="certification-item">
+                <div class="certification-icon">
+                  <i class="fas fa-comments"></i>
                 </div>
                 <h3>Accelerated Soft-skills Training</h3>
-                <p>Jobberman Certificate of Achievement</p>
-              </div>
-              <div class="certification-item">
-                <div class="certification-icon">
-                  <i class="fas fa-certificate"></i>
-                </div>
-                <h3>Public Speaking Training</h3>
-                <p>Herstory Nigeria</p>
-              </div>
-              <div class="certification-item">
-                <div class="certification-icon">
-                  <i class="fas fa-certificate"></i>
-                </div>
-                <h3>Transforming Nigerian Youths Program</h3>
-                <p>Enterprise Development Center and Young Africa Works</p>
+                <p>Jobberman Certificate of Achievement · 2020/2022</p>
               </div>
             </div>
           </div>
@@ -437,37 +637,52 @@
                   <i class="fas fa-hands-helping"></i>
                 </div>
                 <h3>International Volunteer Day</h3>
-                <p>Shanghai, China</p>
+                <p>Shanghai, China · 2023</p>
               </div>
               <div class="volunteering-item">
                 <div class="volunteering-icon">
                   <i class="fas fa-hands-helping"></i>
                 </div>
                 <h3>
-                  China-Africa Youth Innovation and Entrepreneurship Competition
+                  2nd China-Africa Youth Innovation and Entrepreneurship
+                  Competition
                 </h3>
-                <p>Wuhan, China</p>
+                <p>China · 2023</p>
               </div>
               <div class="volunteering-item">
                 <div class="volunteering-icon">
                   <i class="fas fa-hands-helping"></i>
                 </div>
-                <h3>WHO Immunization Program</h3>
-                <p>Ogun State, Nigeria</p>
+                <h3>WHO Immunization Program Engagement</h3>
+                <p>World Health Organization · 2022</p>
+              </div>
+              <div class="volunteering-item">
+                <div class="volunteering-icon">
+                  <i class="fas fa-hands-helping"></i>
+                </div>
+                <h3>Health Education and Advocacy</h3>
+                <p>Primary Healthcare Board · 2022</p>
+              </div>
+              <div class="volunteering-item">
+                <div class="volunteering-icon">
+                  <i class="fas fa-hands-helping"></i>
+                </div>
+                <h3>Yellow Fever Vaccination Administration</h3>
+                <p>2022</p>
               </div>
               <div class="volunteering-item">
                 <div class="volunteering-icon">
                   <i class="fas fa-hands-helping"></i>
                 </div>
                 <h3>WHO Measles Vaccination</h3>
-                <p>Ogun State, Nigeria</p>
+                <p>World Health Organization · 2022</p>
               </div>
               <div class="volunteering-item">
                 <div class="volunteering-icon">
                   <i class="fas fa-hands-helping"></i>
                 </div>
                 <h3>RCF Decoration Coordinator</h3>
-                <p>Benin Republic</p>
+                <p>Redeemed Christian Fellowship · 2019</p>
               </div>
             </div>
           </div>
@@ -482,6 +697,7 @@
           <h2>Publications</h2>
           <div class="underline"></div>
         </div>
+        <h3 class="pub-group-title">Published papers</h3>
         <div class="publications-container">
           <div class="publication-item">
             <div class="publication-year">2024</div>
@@ -493,7 +709,45 @@
               <p class="authors">
                 William Chirwa, O.B. Adesina, Martha Kalumbi
               </p>
-              <p class="journal">Biodiversity - Taylor and Francis</p>
+              <p class="journal">
+                <a
+                  href="https://doi.org/10.1080/14888386.2024.2333308"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Biodiversity, Taylor &amp; Francis</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="publication-item">
+            <div class="publication-year">2024</div>
+            <div class="publication-content">
+              <h3>
+                Evolution in Water Treatment: Exploring Traditional
+                Self-Purification Methods and Emerging Technologies for Drinking
+                Water and Wastewater Treatment: A Review
+              </h3>
+              <p class="authors">
+                O.B. Adesina, Chirwa William, Esther Ibiyemi Oke
+              </p>
+              <p class="journal">
+                World News of Natural Sciences (WNOFNS) 53 (2024) 169-185,
+                EISSN 2543-5426
+              </p>
+            </div>
+          </div>
+          <div class="publication-item">
+            <div class="publication-year">2024</div>
+            <div class="publication-content">
+              <h3>
+                Frequency and Incidence of Bacterial Infection in the Female
+                Reproductive System
+              </h3>
+              <p class="authors">O.B. Adesina, Oke Esther</p>
+              <p class="journal">
+                World News of Natural Sciences (WNOFNS) 52 (2024) 126-138,
+                EISSN 2543-5426
+              </p>
             </div>
           </div>
           <div class="publication-item">
@@ -510,8 +764,9 @@
               </p>
               <p class="journal">
                 <a
-                  href="https://www.sciencedirect.com/science/article/pii/S0048969724066956?via%3Dihub"
+                  href="https://doi.org/10.1016/j.scitotenv.2024.176539"
                   target="_blank"
+                  rel="noopener noreferrer"
                   >Science of The Total Environment</a
                 >
               </p>
@@ -526,14 +781,93 @@
                 using light gradient boosting machine
               </h3>
               <p class="authors">
-                A. Awomuti, Z. Yu, O. Adesina, O.W. Samuel, A.W. Mumbi & D. Yin
+                A. Awomuti, Z. Yu, O.B. Adesina, O.W. Samuel, A.W. Mumbi &amp;
+                D. Yin
               </p>
               <p class="journal">
                 <a
-                  href="https://pubmed.ncbi.nlm.nih.gov/40126364/"
+                  href="https://doi.org/10.1080/1062936X.2025.2478123"
                   target="_blank"
-                  >PubMed</a
+                  rel="noopener noreferrer"
+                  >SAR and QSAR in Environmental Research</a
                 >
+              </p>
+            </div>
+          </div>
+          <div class="publication-item">
+            <div class="publication-year">2025</div>
+            <div class="publication-content">
+              <h3>
+                Microalgae-Based Transformation of Carbon and Nitrogen: A
+                Pathway for Sustainable Wastewater Treatment
+              </h3>
+              <p class="authors">
+                Adamudu Alexander Ogwuche, Iyobosa Eheneden, Adesina O.B.,
+                Enenche Esther, Benard Obogwu
+              </p>
+              <p class="journal">
+                <a
+                  href="https://doi.org/10.9734/jgeesi/2025/v29i9943"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Journal of Geography, Environment and Earth Science
+                  International</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="publication-item">
+            <div class="publication-year">2026</div>
+            <div class="publication-content">
+              <h3>
+                Textile and laundry innovations for microfiber pollution
+                mitigation: a comprehensive review
+              </h3>
+              <p class="authors">
+                O.B. Adesina, J.S. Onwubiko, Amoah-Nuamah John, Berha Ashenaf,
+                Alexander Ogwuche Adamudu
+              </p>
+              <p class="journal">
+                <a
+                  href="https://doi.org/10.1007/s10452-026-10288-0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Aquatic Ecology</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="pub-group-title">Manuscripts under review</h3>
+        <div class="publications-container">
+          <div class="publication-item">
+            <div class="publication-year under-review">In progress</div>
+            <div class="publication-content">
+              <h3>
+                Influencing Mechanisms in Soil Type and Associated Bacterial
+                Community Changes in Environmental Bioremediation: A Review of
+                Pollutant Degradation
+              </h3>
+              <p class="authors">
+                O.B. Adesina, A.O. Adamudu, J.S. Onwubiko, I. Eheneden
+              </p>
+              <p class="journal">
+                International Journal of Environmental Science and Technology
+              </p>
+            </div>
+          </div>
+          <div class="publication-item">
+            <div class="publication-year under-review">Review</div>
+            <div class="publication-content">
+              <h3>
+                Toward Coupled Herbicide Biodegradation and Nitrogen Fixation by
+                Algal-Bacterial Consortia in Paddy Fields: A Review of Progress
+                and Future Perspectives
+              </h3>
+              <p class="authors">
+                O.B. Adesina, Shixiang Dai, Jedidiah Solomon Onwubiko, Yuqi
+                Huang, Ying Teng
               </p>
             </div>
           </div>
@@ -542,26 +876,39 @@
     </section>
 
     <!-- Awards Section -->
-    <section class="awards">
+    <section id="awards" class="awards">
       <div class="container">
         <div class="section-title">
-          <h2>Awards & Recognition</h2>
+          <h2>Awards &amp; Recognition</h2>
           <div class="underline"></div>
         </div>
         <div class="awards-container">
+          <div class="award-item">
+            <div class="award-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="award-content">
+              <h3>Chinese Government Scholarship</h3>
+              <p>
+                Fully funded Master's studies at Tongji University, sponsored by
+                the China Scholarship Council (CSC).
+              </p>
+            </div>
+          </div>
           <div class="award-item">
             <div class="award-icon"><i class="fas fa-trophy"></i></div>
             <div class="award-content">
               <h3>Third Prize</h3>
               <p>
                 2nd China-Africa Youth Innovation and Entrepreneurship
-                Competition
+                Competition, for AfricPay, a proposed cross-border payment
+                system to support secure, efficient, and affordable transactions
+                between China and Africa.
               </p>
               <a
                 href="https://unep-iesd.tongji.edu.cn/iesden/06/f6/c13757a329462/page.htm"
                 target="_blank"
+                rel="noopener noreferrer"
                 class="award-link"
-                >View Details</a
+                >View details</a
               >
             </div>
           </div>
@@ -570,8 +917,10 @@
             <div class="award-content">
               <h3>Journal Reviewer</h3>
               <p>
-                Elsevier - Water Process Engineering and Chemical Engineering
-                Journal
+                Peer reviewer for Elsevier journals including
+                <em>Journal of Water Process Engineering</em> and
+                <em>Chemical Engineering Journal</em>, evaluating manuscripts on
+                wastewater treatment and environmental engineering.
               </p>
             </div>
           </div>
@@ -583,19 +932,29 @@
     <section id="contact" class="contact">
       <div class="container">
         <div class="section-title">
-          <h2>Contact Me</h2>
+          <h2>Contact</h2>
           <div class="underline"></div>
         </div>
         <div class="contact-container">
           <div class="contact-info">
             <div class="contact-item">
               <div class="contact-icon">
-                <i class="fas fa-map-marker-alt"></i>
+                <i class="fas fa-university"></i>
               </div>
               <div class="contact-text">
-                <h3>Location</h3>
+                <h3>PhD</h3>
+                <p>Institute of Soil Science, Chinese Academy of Sciences</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="contact-text">
+                <h3>M.Sc.</h3>
                 <p>
-                  301 Xuefu Road, Zhenjiang, Jiangsu Province, China, 212013
+                  UNEP-Tongji Institute of Environment for Sustainable
+                  Development (IESD)
                 </p>
               </div>
             </div>
@@ -623,20 +982,24 @@
                 href="https://www.linkedin.com/in/odunayo-blessing-adesina-57ba322b6"
                 class="social-link"
                 target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
                 ><i class="fab fa-linkedin"></i
               ></a>
-
               <a
-                href="https://www.researchgate.net/profile/Odunayo-Blessing-Adesina?ev=hdr_xprf&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoiaG9tZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6Imdsb2JhbEhlYWRlciJ9fQ"
+                href="https://www.researchgate.net/profile/Odunayo-Blessing-Adesina"
                 class="social-link"
                 target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ResearchGate"
                 ><i class="fab fa-researchgate"></i
               ></a>
               <a
                 href="https://orcid.org/0009-0002-9546-7633"
-                target="_blank"
                 class="social-link"
                 target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ORCID"
                 ><i class="fab fa-orcid"></i
               ></a>
             </div>
@@ -696,11 +1059,12 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-content">
-          <p>&copy; 2025 Odunayo Blessing Adesina. All Rights Reserved.</p>
+          <p>&copy; <span id="copyright-year">2026</span> Odunayo Blessing Adesina. All Rights Reserved.</p>
           <div class="footer-links">
             <a href="#home">Home</a>
             <a href="#about">About</a>
-            <a href="#resume">Resume</a>
+            <a href="#research">Research</a>
+            <a href="#resume">CV</a>
             <a href="#publications">Publications</a>
             <a href="#contact">Contact</a>
           </div>
